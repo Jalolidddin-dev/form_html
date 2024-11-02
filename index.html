@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+  </head>
+  <body>
+    <form>
+      <fieldset>
+        <legend>Ro'yxatdan o'ting va Jentra yutib oling.</legend>
+
+        <label for="name">Username</label> <br />
+        <input id="name" type="text" placeholder="username" required />
+        <br /><br />
+
+        <label for="email">Email</label> <br />
+        <input id="email" type="email" placeholder="email" />
+        <br /><br />
+
+        <label for="parol">Password</label> <br />
+        <input
+          id="parol"
+          type="password"
+          placeholder="password"
+          minlength="3"
+          maxlength="7"
+        />
+        <br /><br />
+
+        <label for="color">Color</label>
+        <input id="color" type="color" /> <br /><br />
+
+        <label for="birthday">tug'ilgan sanangiz:</label> <br />
+        <input type="date" />
+
+        <br /><br />
+
+        <label for="">Age</label> <br />
+        <input type="range" min="3" max="10" />
+
+        <br />
+        <br />
+
+        <label for="">Qaysi dasturlash texnologiyalarni bilasiz?</label> <br />
+        <input id="html" type="checkbox" />
+        <label for="html">Html</label> <br />
+        <input id="css" type="checkbox" />
+        <label for="css">Css</label> <br />
+        <input id="js" type="checkbox" />
+        <label for="js">JS</label> <br />
+        <input id="react" type="checkbox" />
+        <label for="react">React</label> <br />
+
+        <br /><br />
+
+        <label for="">Siz qayerda o'qiysiz?</label> <br />
+
+        <input name="study" type="radio" />
+        <label for="univr">Universitet</label> <br />
+        <input name="study" type="radio" />
+        <label for="univr">Maktab </label> <br />
+        <input name="study" type="radio" />
+        <label for="univr">Kollej</label> <br />
+        <input name="study" type="radio" />
+        <label for="univr">Texnikum</label> <br />
+
+        <br /><br />
+
+        <button type="submit">Register</button>
+      </fieldset>
+    </form>
+
+    <img src="./illustration.png" alt="" />
+  </body>
+</html>
